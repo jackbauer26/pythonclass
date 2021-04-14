@@ -44,7 +44,7 @@ def create(user_account_number, first_name, last_name, email, password):
 
     else:
 
-        f.write(str(user_data));
+        f.write(str(user_data)) #semicolon was removed
         completion_state = True
 
     finally:
