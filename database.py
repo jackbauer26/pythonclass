@@ -49,7 +49,7 @@ def create(user_account_number, first_name, last_name, email, password):
 
     finally:
 
-        f.close();
+        f.close() #semicolon was removed
         return completion_state
 
 
